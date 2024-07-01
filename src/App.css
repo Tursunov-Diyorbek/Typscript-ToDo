@@ -1,0 +1,62 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  min-height: 100vh;
+  background: url("./../public/t65h5m1ckjk51.webp") no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+input {
+  outline: none;
+  width: 76%;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  background-color: #fff;
+}
+.wrapper {
+  width: 600px;
+  background-color: transparent;
+  border: 2px solid rgba(255, 255, 255, 0.2);
+  backdrop-filter: blur(7px);
+  border-radius: 5px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+  color: #fff;
+  padding: 20px;
+}
+ul {
+  margin: 0;
+  padding: 0;
+}
+li {
+  margin-top: 10px;
+  background-color: #fff;
+  color: gray;
+  list-style: none;
+  border-radius: 5px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding-right: 10px;
+}
+.actions {
+  display: flex;
+  align-items: center;
+  gap: 5px;
+}
+.actions i {
+  font-size: 30px;
+  cursor: pointer;
+}
+.actions i:nth-child(1) {
+  color: goldenrod;
+}
+.actions i:nth-child(2) {
+  color: red;
+}
